@@ -7,9 +7,9 @@ Yuhang Zhou
 
 ## LocalSetup:
 
-Python3
-matplotlib
-numpy
+*Python3
+*matplotlib
+*numpy
 ```
 pip install numpy
 pip install matplotlib
