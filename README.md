@@ -14,11 +14,7 @@ numpy
 pip install numpy
 pip install matplotlib
 ```
-or
-```
-pip3 install numpy
-pip3 install matplotlib
-```
+
 
 ## Guide:
 
