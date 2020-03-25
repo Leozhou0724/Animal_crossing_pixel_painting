@@ -22,16 +22,16 @@ pip3 install matplotlib
 
 ## Guide:
 
-1.Download and open the `pixel_converter.py` file
-2.Put your picture in the same directory 
-3.Change the **filename** in **pixel_converter.py** to your picture file name
-4.`python pixel_converter.py` or `python3 pixel_converter.py`
+* Download and open the `pixel_converter.py` file
+* Put your picture in the same directory 
+* Change the **filename** in **pixel_converter.py** to your picture file name
+* `python pixel_converter.py` or `python3 pixel_converter.py`
 
 ## Sample:
 
-Original Image:
+* Original Image:
 ![alt text](meandyou.jpg)
-Pixel Image:
+* Pixel Image:
 ![alt text](pixel_meandyou.jpg)
-Pixel Image In Animal Crossing Colortable:
+* Pixel Image In Animal Crossing Colortable:
 ![alt text](animal_crossing_meandyou.jpg)
