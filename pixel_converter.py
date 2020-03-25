@@ -1,9 +1,19 @@
+'''
+Animal_crossing_pixel_painting
+Converter an image to a pixel image and a pixel image in animal crossing color table
+
+Made by: Yuahng Zhou
+3/25/2020
+
+Feel free to share and try it
+'''
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 
 
 def find_animal_crossing_color(original_color):
+    # animal crossing color table
     colortable = [
         [225, 47, 47],
         [225, 118, 50],
@@ -32,7 +42,7 @@ def find_animal_crossing_color(original_color):
 
 
 def convert(filename):
-    original_img = mpimg.imread(filename)
+    original_img = mpimg.imread('images/'+filename)
     h = original_img.shape[0]
     w = original_img.shape[1]
     # change to int 0 - 255 RGB data type
@@ -92,18 +102,19 @@ def convert(filename):
     plt.title('Animal Crossing Image')
     plt.imshow(animal_crossing_img)
     plt.axis('off')
-    plt.savefig('Comparasion_' + filename,
+    plt.savefig('images/Comparasion_' + filename,
                 dpi=300, pad_inches=0.0)
     '''
     plt.imshow(pixel_img)
     plt.axis('off')
-    plt.savefig('pixel_' + filename, dpi=300, transparent=True, pad_inches=0.0)
+    plt.savefig('images/pixel_' + filename, dpi=300, pad_inches=0.0)
     plt.imshow(animal_crossing_img)
     plt.axis('off')
-    plt.savefig('animal_crossing_' + filename,
-                dpi=300, transparent=True, pad_inches=0.0)
+    plt.savefig('images/animal_crossing_' + filename,
+                dpi=300, pad_inches=0.0)
+    print('Done')
 
 
-filename = '1975.jpg'
-#filename = 'meandyou.jpg'
+#filename = '1975.jpg'
+filename = 'meandyou.jpg'
 convert(filename)
