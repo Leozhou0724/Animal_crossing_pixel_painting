@@ -10,22 +10,22 @@ Yuhang Zhou
 Python3
 matplotlib
 numpy
-'''
+```
 pip install numpy
 pip install matplotlib
-'''
+```
 or
-'''
+```
 pip3 install numpy
 pip3 install matplotlib
-'''
+```
 
 ## Guide:
 
-1.Download and open the 'pixel_converter.py' file
+1.Download and open the `pixel_converter.py` file
 2.Put your picture in the same directory 
-3.Change the 'filename' in 'pixel_converter.py' to your picture file name
-4.'python pixel_converter.py' or 'python3 pixel_converter.py'
+3.Change the **filename** in **pixel_converter.py** to your picture file name
+4.`python pixel_converter.py` or `python3 pixel_converter.py`
 
 ## Sample:
 
