@@ -24,7 +24,7 @@ pip3 install matplotlib
 
 * Download and open the `pixel_converter.py` file
 * Put your picture in the **images** folder
-* Change the **filename** in **pixel_converter.py** to your picture file name
+* Change the **filename** in **pixel_converter.py** to your picture filename
 * `python pixel_converter.py` or `python3 pixel_converter.py`
 
 ## Sample:
